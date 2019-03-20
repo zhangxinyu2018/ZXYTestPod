@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.name             = 'ZXYTestPod'
 
   #版本号，区分版本，制作索引文件会用到
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'WebStartView framework for IOS'
   s.description      = <<-DESC
                         test.test
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author           = { '904824090@qq.com' => '904824090@qq.com' }
 
   #pod的git地址
-  s.source           = { :git => 'git@github.com:zhangxinyu2018/ZXYTestPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zhangxinyu2018/ZXYTestPod.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
